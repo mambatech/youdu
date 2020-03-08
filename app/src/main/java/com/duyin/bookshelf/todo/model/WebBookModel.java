@@ -5,12 +5,12 @@ import android.annotation.SuppressLint;
 
 import com.hwangjr.rxbus.RxBus;
 import com.duyin.bookshelf.DbHelper;
-import com.duyin.bookshelf.todo.bean.BaseChapterBean;
-import com.duyin.bookshelf.todo.bean.BookChapterBean;
+import com.duyin.bookshelf.bean.BaseChapterBean;
+import com.duyin.bookshelf.bean.BookChapterBean;
 import com.duyin.bookshelf.todo.bean.BookContentBean;
-import com.duyin.bookshelf.todo.bean.BookInfoBean;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
-import com.duyin.bookshelf.todo.bean.SearchBookBean;
+import com.duyin.bookshelf.bean.BookInfoBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.SearchBookBean;
 import com.duyin.bookshelf.todo.constant.RxBusTag;
 import com.duyin.bookshelf.todo.help.BookshelfHelp;
 import com.duyin.bookshelf.todo.model.content.WebBook;

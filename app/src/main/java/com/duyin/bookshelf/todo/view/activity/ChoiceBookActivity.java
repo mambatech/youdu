@@ -12,11 +12,12 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
+import com.duyin.bookshelf.view.activity.BookDetailActivity;
 import com.edison.mvplib.BitIntentDataManager;
 import com.duyin.bookshelf.R;
 import com.duyin.bookshelf.base.MBaseActivity;
-import com.duyin.bookshelf.todo.bean.SearchBookBean;
-import com.duyin.bookshelf.todo.presenter.BookDetailPresenter;
+import com.duyin.bookshelf.bean.SearchBookBean;
+import com.duyin.bookshelf.presenter.BookDetailPresenter;
 import com.duyin.bookshelf.todo.presenter.ChoiceBookPresenter;
 import com.duyin.bookshelf.todo.presenter.contract.ChoiceBookContract;
 import com.duyin.bookshelf.utils.theme.ThemeStore;

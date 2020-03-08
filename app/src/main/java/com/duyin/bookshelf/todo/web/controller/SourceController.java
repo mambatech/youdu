@@ -2,7 +2,7 @@ package com.duyin.bookshelf.todo.web.controller;
 
 import android.text.TextUtils;
 
-import com.duyin.bookshelf.todo.bean.BookSourceBean;
+import com.duyin.bookshelf.bean.BookSourceBean;
 import com.duyin.bookshelf.todo.model.BookSourceManager;
 import com.duyin.bookshelf.utils.GsonUtils;
 import com.duyin.bookshelf.todo.web.utils.ReturnData;

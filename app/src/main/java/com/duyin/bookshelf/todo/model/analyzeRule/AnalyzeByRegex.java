@@ -3,9 +3,9 @@ package com.duyin.bookshelf.todo.model.analyzeRule;
 import android.os.Build;
 import android.text.TextUtils;
 
-import com.duyin.bookshelf.todo.bean.BookInfoBean;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
-import com.duyin.bookshelf.todo.bean.BookSourceBean;
+import com.duyin.bookshelf.bean.BookInfoBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookSourceBean;
 import com.duyin.bookshelf.todo.model.content.Debug;
 import com.duyin.bookshelf.utils.NetworkUtils;
 

@@ -6,10 +6,10 @@ import android.text.TextUtils;
 import androidx.annotation.NonNull;
 
 import com.hwangjr.rxbus.RxBus;
-import com.duyin.bookshelf.todo.bean.BookChapterBean;
+import com.duyin.bookshelf.bean.BookChapterBean;
 import com.duyin.bookshelf.todo.bean.BookContentBean;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
-import com.duyin.bookshelf.todo.bean.SearchBookBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.SearchBookBean;
 import com.duyin.bookshelf.todo.constant.RxBusTag;
 import com.duyin.bookshelf.todo.help.BookshelfHelp;
 import com.duyin.bookshelf.todo.model.UpLastChapterModel;

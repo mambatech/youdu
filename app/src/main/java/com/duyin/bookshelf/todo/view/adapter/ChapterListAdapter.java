@@ -12,8 +12,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.duyin.bookshelf.MApplication;
 import com.duyin.bookshelf.R;
 import com.duyin.bookshelf.base.observer.MyObserver;
-import com.duyin.bookshelf.todo.bean.BookChapterBean;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookChapterBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
 import com.duyin.bookshelf.utils.theme.ThemeStore;
 
 import java.util.ArrayList;

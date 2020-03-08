@@ -22,7 +22,7 @@ import com.edison.mvplib.BitIntentDataManager;
 import com.duyin.bookshelf.R;
 import com.duyin.bookshelf.base.MBaseActivity;
 import com.duyin.bookshelf.base.observer.MySingleObserver;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
 import com.duyin.bookshelf.todo.bean.ReplaceRuleBean;
 import com.duyin.bookshelf.todo.constant.RxBusTag;
 import com.duyin.bookshelf.todo.help.ItemTouchCallback;

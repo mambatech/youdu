@@ -1,6 +1,8 @@
 
 package com.duyin.bookshelf.todo.bean;
 
+import com.duyin.bookshelf.bean.BookShelfBean;
+
 public class LocBookShelfBean {
     private Boolean isNew;
     private BookShelfBean bookShelfBean;

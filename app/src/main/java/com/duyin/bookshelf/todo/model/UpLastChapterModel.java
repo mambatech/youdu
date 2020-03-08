@@ -7,12 +7,12 @@ import android.text.TextUtils;
 import com.hwangjr.rxbus.RxBus;
 import com.duyin.bookshelf.DbHelper;
 import com.duyin.bookshelf.MApplication;
-import com.duyin.bookshelf.todo.bean.BookChapterBean;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
-import com.duyin.bookshelf.todo.bean.BookSourceBean;
-import com.duyin.bookshelf.todo.bean.SearchBookBean;
+import com.duyin.bookshelf.bean.BookChapterBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookSourceBean;
+import com.duyin.bookshelf.bean.SearchBookBean;
 import com.duyin.bookshelf.todo.constant.RxBusTag;
-import com.duyin.bookshelf.todo.dao.SearchBookBeanDao;
+import com.duyin.bookshelf.dao.SearchBookBeanDao;
 import com.duyin.bookshelf.todo.help.BookshelfHelp;
 import com.duyin.bookshelf.utils.RxUtils;
 

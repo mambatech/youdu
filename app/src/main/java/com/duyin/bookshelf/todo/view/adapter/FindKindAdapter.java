@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.appcompat.widget.AppCompatImageView;
 
 import com.duyin.bookshelf.R;
-import com.duyin.bookshelf.todo.bean.FindKindBean;
+import com.duyin.bookshelf.bean.FindKindBean;
 import com.duyin.bookshelf.todo.bean.FindKindGroupBean;
 import com.duyin.bookshelf.todo.widget.recycler.expandable.BaseExpandAbleViewHolder;
 import com.duyin.bookshelf.todo.widget.recycler.expandable.BaseExpandableRecyclerAdapter;

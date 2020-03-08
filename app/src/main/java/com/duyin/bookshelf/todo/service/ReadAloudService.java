@@ -35,7 +35,7 @@ import com.duyin.bookshelf.MApplication;
 import com.duyin.bookshelf.R;
 import com.duyin.bookshelf.todo.constant.RxBusTag;
 import com.duyin.bookshelf.todo.help.MediaManager;
-import com.duyin.bookshelf.bookshelf.ReadBookActivity;
+import com.duyin.bookshelf.view.activity.ReadBookActivity;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -8,7 +8,7 @@ import android.widget.RelativeLayout;
 
 import com.duyin.bookshelf.R;
 import com.duyin.bookshelf.base.MBaseFragment;
-import com.duyin.bookshelf.todo.help.PrivacyAndUserLienceHelper;
+import com.duyin.bookshelf.helper.PrivacyAndUserLienceHelper;
 import com.edison.mvplib.impl.IPresenter;
 
 import androidx.annotation.NonNull;

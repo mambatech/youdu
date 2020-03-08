@@ -9,8 +9,8 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.duyin.bookshelf.R
-import com.duyin.bookshelf.todo.bean.BookShelfBean
-import com.duyin.bookshelf.todo.help.ImageLoader
+import com.duyin.bookshelf.bean.BookShelfBean
+import com.duyin.bookshelf.helper.ImageLoader
 import jp.wasabeef.picasso.transformations.RoundedCornersTransformation
 
 /**

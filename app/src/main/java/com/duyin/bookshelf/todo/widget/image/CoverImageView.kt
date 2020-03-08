@@ -3,13 +3,11 @@ package com.duyin.bookshelf.todo.widget.image
 import android.annotation.SuppressLint
 import android.content.Context
 import android.graphics.*
-import android.graphics.drawable.Drawable
 import android.text.TextPaint
 import android.util.AttributeSet
 import com.duyin.bookshelf.R
-import com.duyin.bookshelf.todo.help.ImageLoader
+import com.duyin.bookshelf.helper.ImageLoader
 import com.squareup.picasso.Callback
-import com.squareup.picasso.Picasso
 import java.lang.Exception
 
 

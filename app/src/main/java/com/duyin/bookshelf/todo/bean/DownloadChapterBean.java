@@ -1,6 +1,8 @@
 
 package com.duyin.bookshelf.todo.bean;
 
+import com.duyin.bookshelf.bean.BaseChapterBean;
+
 public class DownloadChapterBean implements BaseChapterBean {
     private String noteUrl;
 

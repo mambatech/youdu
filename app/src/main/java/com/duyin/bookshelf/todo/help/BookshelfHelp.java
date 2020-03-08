@@ -4,18 +4,18 @@ import android.annotation.SuppressLint;
 import android.text.TextUtils;
 
 import com.duyin.bookshelf.DbHelper;
-import com.duyin.bookshelf.todo.bean.BaseChapterBean;
-import com.duyin.bookshelf.todo.bean.BookChapterBean;
+import com.duyin.bookshelf.bean.BaseChapterBean;
+import com.duyin.bookshelf.bean.BookChapterBean;
 import com.duyin.bookshelf.todo.bean.BookContentBean;
-import com.duyin.bookshelf.todo.bean.BookInfoBean;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookInfoBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
 import com.duyin.bookshelf.todo.bean.BookmarkBean;
-import com.duyin.bookshelf.todo.bean.SearchBookBean;
+import com.duyin.bookshelf.bean.SearchBookBean;
 import com.duyin.bookshelf.todo.constant.AppConstant;
-import com.duyin.bookshelf.todo.dao.BookChapterBeanDao;
-import com.duyin.bookshelf.todo.dao.BookInfoBeanDao;
-import com.duyin.bookshelf.todo.dao.BookShelfBeanDao;
-import com.duyin.bookshelf.todo.dao.BookmarkBeanDao;
+import com.duyin.bookshelf.dao.BookChapterBeanDao;
+import com.duyin.bookshelf.dao.BookInfoBeanDao;
+import com.duyin.bookshelf.dao.BookShelfBeanDao;
+import com.duyin.bookshelf.dao.BookmarkBeanDao;
 import com.duyin.bookshelf.utils.StringUtils;
 
 import net.ricecode.similarity.JaroWinklerStrategy;

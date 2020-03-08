@@ -3,12 +3,12 @@ package com.duyin.bookshelf.todo.model.content;
 import android.text.TextUtils;
 
 import com.duyin.bookshelf.base.net.BaseModelImpl;
-import com.duyin.bookshelf.todo.bean.BaseChapterBean;
-import com.duyin.bookshelf.todo.bean.BookChapterBean;
+import com.duyin.bookshelf.bean.BaseChapterBean;
+import com.duyin.bookshelf.bean.BookChapterBean;
 import com.duyin.bookshelf.todo.bean.BookContentBean;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
-import com.duyin.bookshelf.todo.bean.BookSourceBean;
-import com.duyin.bookshelf.todo.bean.SearchBookBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookSourceBean;
+import com.duyin.bookshelf.bean.SearchBookBean;
 import com.duyin.bookshelf.todo.model.BookSourceManager;
 import com.duyin.bookshelf.todo.model.analyzeRule.AnalyzeHeaders;
 import com.duyin.bookshelf.todo.model.analyzeRule.AnalyzeUrl;

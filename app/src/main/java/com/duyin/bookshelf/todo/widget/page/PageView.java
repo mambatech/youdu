@@ -13,12 +13,12 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewConfiguration;
 
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
 import com.duyin.bookshelf.todo.help.FileHelp;
 import com.duyin.bookshelf.todo.help.ReadBookControl;
 import com.duyin.bookshelf.utils.ScreenUtils;
 import com.duyin.bookshelf.utils.bar.ImmersionBar;
-import com.duyin.bookshelf.bookshelf.ReadBookActivity;
+import com.duyin.bookshelf.view.activity.ReadBookActivity;
 import com.duyin.bookshelf.todo.widget.page.animation.CoverPageAnim;
 import com.duyin.bookshelf.todo.widget.page.animation.HorizonPageAnim;
 import com.duyin.bookshelf.todo.widget.page.animation.NonePageAnim;

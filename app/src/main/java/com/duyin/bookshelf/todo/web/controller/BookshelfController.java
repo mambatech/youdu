@@ -3,9 +3,9 @@ package com.duyin.bookshelf.todo.web.controller;
 import android.text.TextUtils;
 
 import com.duyin.bookshelf.DbHelper;
-import com.duyin.bookshelf.todo.bean.BookChapterBean;
+import com.duyin.bookshelf.bean.BookChapterBean;
 import com.duyin.bookshelf.todo.bean.BookContentBean;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
 import com.duyin.bookshelf.todo.help.BookshelfHelp;
 import com.duyin.bookshelf.todo.model.WebBookModel;
 import com.duyin.bookshelf.utils.GsonUtils;

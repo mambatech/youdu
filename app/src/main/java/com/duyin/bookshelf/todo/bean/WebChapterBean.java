@@ -1,5 +1,7 @@
 package com.duyin.bookshelf.todo.bean;
 
+import com.duyin.bookshelf.bean.BookChapterBean;
+
 import java.util.LinkedHashSet;
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package com.duyin.bookshelf.todo.view.adapter;
 
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
 import com.duyin.bookshelf.todo.help.ItemTouchCallback;
 import com.duyin.bookshelf.todo.view.adapter.base.OnItemClickListenerTwo;
 

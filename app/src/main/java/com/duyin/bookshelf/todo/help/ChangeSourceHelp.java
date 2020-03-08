@@ -2,9 +2,9 @@ package com.duyin.bookshelf.todo.help;
 
 import com.duyin.bookshelf.DbHelper;
 import com.duyin.bookshelf.base.observer.MyObserver;
-import com.duyin.bookshelf.todo.bean.BookChapterBean;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
-import com.duyin.bookshelf.todo.bean.SearchBookBean;
+import com.duyin.bookshelf.bean.BookChapterBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.SearchBookBean;
 import com.duyin.bookshelf.todo.bean.TwoDataBean;
 import com.duyin.bookshelf.todo.model.SearchBookModel;
 import com.duyin.bookshelf.todo.model.WebBookModel;

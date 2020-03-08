@@ -5,7 +5,7 @@ import android.text.TextUtils;
 import com.duyin.bookshelf.DbHelper;
 import com.duyin.bookshelf.base.net.BaseModelImpl;
 import com.duyin.bookshelf.todo.bean.ReplaceRuleBean;
-import com.duyin.bookshelf.todo.dao.ReplaceRuleBeanDao;
+import com.duyin.bookshelf.dao.ReplaceRuleBeanDao;
 import com.duyin.bookshelf.todo.model.analyzeRule.AnalyzeHeaders;
 import com.duyin.bookshelf.todo.model.impl.IHttpGetApi;
 import com.duyin.bookshelf.utils.GsonUtils;

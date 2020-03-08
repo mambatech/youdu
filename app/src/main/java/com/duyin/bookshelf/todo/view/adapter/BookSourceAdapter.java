@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.duyin.bookshelf.R;
-import com.duyin.bookshelf.todo.bean.BookSourceBean;
+import com.duyin.bookshelf.bean.BookSourceBean;
 import com.duyin.bookshelf.todo.help.ItemTouchCallback;
 import com.duyin.bookshelf.todo.model.BookSourceManager;
 import com.duyin.bookshelf.utils.theme.ThemeStore;

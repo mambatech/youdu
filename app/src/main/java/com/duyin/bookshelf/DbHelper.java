@@ -5,17 +5,17 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.github.yuweiguocn.library.greendao.MigrationHelper;
-import com.duyin.bookshelf.todo.dao.BookChapterBeanDao;
-import com.duyin.bookshelf.todo.dao.BookInfoBeanDao;
-import com.duyin.bookshelf.todo.dao.BookShelfBeanDao;
-import com.duyin.bookshelf.todo.dao.BookSourceBeanDao;
-import com.duyin.bookshelf.todo.dao.BookmarkBeanDao;
-import com.duyin.bookshelf.todo.dao.CookieBeanDao;
-import com.duyin.bookshelf.todo.dao.DaoMaster;
-import com.duyin.bookshelf.todo.dao.DaoSession;
-import com.duyin.bookshelf.todo.dao.ReplaceRuleBeanDao;
-import com.duyin.bookshelf.todo.dao.SearchHistoryBeanDao;
-import com.duyin.bookshelf.todo.dao.TxtChapterRuleBeanDao;
+import com.duyin.bookshelf.dao.BookChapterBeanDao;
+import com.duyin.bookshelf.dao.BookInfoBeanDao;
+import com.duyin.bookshelf.dao.BookShelfBeanDao;
+import com.duyin.bookshelf.dao.BookSourceBeanDao;
+import com.duyin.bookshelf.dao.BookmarkBeanDao;
+import com.duyin.bookshelf.dao.CookieBeanDao;
+import com.duyin.bookshelf.dao.DaoMaster;
+import com.duyin.bookshelf.dao.DaoSession;
+import com.duyin.bookshelf.dao.ReplaceRuleBeanDao;
+import com.duyin.bookshelf.dao.SearchHistoryBeanDao;
+import com.duyin.bookshelf.dao.TxtChapterRuleBeanDao;
 
 import org.greenrobot.greendao.database.Database;
 

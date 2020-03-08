@@ -19,7 +19,7 @@ import com.hwangjr.rxbus.RxBus;
 import com.edison.mvplib.impl.IPresenter;
 import com.duyin.bookshelf.R;
 import com.duyin.bookshelf.base.MBaseActivity;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
 import com.duyin.bookshelf.todo.constant.RxBusTag;
 import com.duyin.bookshelf.todo.help.BookshelfHelp;
 import com.duyin.bookshelf.todo.help.permission.Permissions;

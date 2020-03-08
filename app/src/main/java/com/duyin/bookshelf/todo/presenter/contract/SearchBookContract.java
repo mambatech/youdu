@@ -4,7 +4,7 @@ import android.widget.EditText;
 
 import com.edison.mvplib.impl.IPresenter;
 import com.edison.mvplib.impl.IView;
-import com.duyin.bookshelf.todo.bean.SearchBookBean;
+import com.duyin.bookshelf.bean.SearchBookBean;
 import com.duyin.bookshelf.todo.bean.SearchHistoryBean;
 import com.duyin.bookshelf.todo.view.adapter.SearchBookAdapter;
 

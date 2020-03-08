@@ -4,9 +4,9 @@ import android.text.TextUtils;
 
 import com.hwangjr.rxbus.RxBus;
 import com.duyin.bookshelf.base.observer.MyObserver;
-import com.duyin.bookshelf.todo.bean.BookChapterBean;
+import com.duyin.bookshelf.bean.BookChapterBean;
 import com.duyin.bookshelf.todo.bean.BookContentBean;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
 import com.duyin.bookshelf.todo.bean.DownloadBookBean;
 import com.duyin.bookshelf.todo.bean.DownloadChapterBean;
 import com.duyin.bookshelf.todo.constant.RxBusTag;

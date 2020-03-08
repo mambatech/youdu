@@ -23,7 +23,7 @@ import com.edison.mvplib.impl.IPresenter;
 import com.duyin.bookshelf.DbHelper;
 import com.duyin.bookshelf.R;
 import com.duyin.bookshelf.base.MBaseActivity;
-import com.duyin.bookshelf.todo.bean.BookSourceBean;
+import com.duyin.bookshelf.bean.BookSourceBean;
 import com.duyin.bookshelf.todo.bean.CookieBean;
 import com.duyin.bookshelf.utils.theme.ThemeStore;
 

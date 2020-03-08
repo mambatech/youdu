@@ -11,7 +11,7 @@ import com.google.gson.Gson;
 import com.edison.mvplib.BasePresenterImpl;
 import com.edison.mvplib.impl.IView;
 import com.duyin.bookshelf.DbHelper;
-import com.duyin.bookshelf.todo.bean.BookSourceBean;
+import com.duyin.bookshelf.bean.BookSourceBean;
 import com.duyin.bookshelf.todo.model.BookSourceManager;
 import com.duyin.bookshelf.todo.presenter.contract.SourceEditContract;
 import com.duyin.bookshelf.utils.RxUtils;

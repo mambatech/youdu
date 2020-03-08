@@ -19,7 +19,7 @@ import com.duyin.bookshelf.todo.help.ReadBookControl;
 import com.duyin.bookshelf.todo.help.permission.Permissions;
 import com.duyin.bookshelf.todo.help.permission.PermissionsCompat;
 import com.duyin.bookshelf.utils.theme.ATH;
-import com.duyin.bookshelf.bookshelf.ReadBookActivity;
+import com.duyin.bookshelf.view.activity.ReadBookActivity;
 import com.duyin.bookshelf.todo.view.activity.ReadStyleActivity;
 import com.duyin.bookshelf.todo.widget.font.FontSelector;
 import com.duyin.bookshelf.todo.widget.page.animation.PageAnimation;

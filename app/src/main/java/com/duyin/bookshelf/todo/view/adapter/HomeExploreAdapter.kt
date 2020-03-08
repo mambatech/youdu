@@ -9,11 +9,11 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.duyin.bookshelf.MApplication
 import com.duyin.bookshelf.R
-import com.duyin.bookshelf.todo.bean.BookShelfBean
-import com.duyin.bookshelf.todo.bean.FindKindBean
-import com.duyin.bookshelf.todo.bean.HomeExploreItemBean
-import com.duyin.bookshelf.todo.bean.HomeExploreType
-import com.duyin.bookshelf.todo.help.ImageLoader
+import com.duyin.bookshelf.bean.BookShelfBean
+import com.duyin.bookshelf.bean.FindKindBean
+import com.duyin.bookshelf.bean.HomeExploreItemBean
+import com.duyin.bookshelf.bean.HomeExploreType
+import com.duyin.bookshelf.helper.ImageLoader
 import com.duyin.bookshelf.utils.ScreenUtils
 import jp.wasabeef.picasso.transformations.RoundedCornersTransformation
 
@@ -40,7 +40,7 @@ class HomeExploreAdapter: RecyclerView.Adapter<BaseVH> {
         if (list.isNotEmpty()) {
             datas.clear()
             datas.addAll(list)
-            datas.add(HomeExploreItemBean(HomeExploreType.EXPLORE_END,null))
+            datas.add(HomeExploreItemBean(HomeExploreType.EXPLORE_END, null))
             notifyDataSetChanged()
         }
     }

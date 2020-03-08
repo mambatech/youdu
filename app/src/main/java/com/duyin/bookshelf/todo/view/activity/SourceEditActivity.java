@@ -41,7 +41,7 @@ import com.duyin.bookshelf.R;
 import com.duyin.bookshelf.base.MBaseActivity;
 import com.duyin.bookshelf.base.observer.MyObserver;
 import com.duyin.bookshelf.base.observer.MySingleObserver;
-import com.duyin.bookshelf.todo.bean.BookSourceBean;
+import com.duyin.bookshelf.bean.BookSourceBean;
 import com.duyin.bookshelf.todo.constant.BookType;
 import com.duyin.bookshelf.todo.model.BookSourceManager;
 import com.duyin.bookshelf.todo.presenter.SourceEditPresenter;

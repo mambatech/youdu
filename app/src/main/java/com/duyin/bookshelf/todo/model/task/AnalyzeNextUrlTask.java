@@ -2,8 +2,8 @@ package com.duyin.bookshelf.todo.model.task;
 
 import com.duyin.bookshelf.base.net.BaseModelImpl;
 import com.duyin.bookshelf.base.observer.MyObserver;
-import com.duyin.bookshelf.todo.bean.BookChapterBean;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookChapterBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
 import com.duyin.bookshelf.todo.bean.WebChapterBean;
 import com.duyin.bookshelf.todo.model.analyzeRule.AnalyzeUrl;
 import com.duyin.bookshelf.todo.model.content.BookChapterList;

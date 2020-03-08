@@ -5,9 +5,9 @@ import android.text.TextUtils;
 
 import com.duyin.bookshelf.MApplication;
 import com.duyin.bookshelf.R;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
-import com.duyin.bookshelf.todo.bean.BookSourceBean;
-import com.duyin.bookshelf.todo.bean.SearchBookBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookSourceBean;
+import com.duyin.bookshelf.bean.SearchBookBean;
 import com.duyin.bookshelf.todo.model.analyzeRule.AnalyzeByRegex;
 import com.duyin.bookshelf.todo.model.analyzeRule.AnalyzeRule;
 import com.duyin.bookshelf.utils.NetworkUtils;

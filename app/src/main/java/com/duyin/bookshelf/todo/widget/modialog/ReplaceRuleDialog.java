@@ -12,7 +12,7 @@ import androidx.appcompat.widget.AppCompatEditText;
 
 import com.duyin.bookshelf.MApplication;
 import com.duyin.bookshelf.R;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
 import com.duyin.bookshelf.todo.bean.ReplaceRuleBean;
 
 public class ReplaceRuleDialog extends BaseDialog {

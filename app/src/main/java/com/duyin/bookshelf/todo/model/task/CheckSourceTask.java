@@ -3,8 +3,8 @@ package com.duyin.bookshelf.todo.model.task;
 import android.text.TextUtils;
 
 import com.duyin.bookshelf.DbHelper;
-import com.duyin.bookshelf.todo.bean.BookSourceBean;
-import com.duyin.bookshelf.todo.bean.SearchBookBean;
+import com.duyin.bookshelf.bean.BookSourceBean;
+import com.duyin.bookshelf.bean.SearchBookBean;
 import com.duyin.bookshelf.todo.model.WebBookModel;
 import com.duyin.bookshelf.todo.model.analyzeRule.AnalyzeRule;
 import com.duyin.bookshelf.todo.service.CheckSourceService;

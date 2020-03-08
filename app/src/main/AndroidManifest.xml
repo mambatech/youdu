@@ -30,7 +30,7 @@
         tools:ignore="AllowBackup,UnusedAttribute"
         tools:replace="android:theme">
         <activity
-            android:name=".WelcomeActivity"
+            android:name=".view.activity.WelcomeActivity"
             android:theme="@style/CAppWelcomeTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -53,23 +53,7 @@
                 android:resource="@xml/shortcuts" />
         </activity>
         <activity
-            android:name="com.duyin.bookshelf.todo.view.activity.WelcomeBookActivity"
-            android:enabled="false"
-            android:icon="@mipmap/book_launcher"
-            android:roundIcon="@mipmap/book_launcher_round"
-            android:theme="@style/CAppWelcomeTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-            <meta-data
-                android:name="android.app.shortcuts"
-                android:resource="@xml/shortcuts" />
-        </activity>
-        <activity
-            android:name=".bookshelf.ReadBookActivity"
+            android:name=".view.activity.ReadBookActivity"
             android:configChanges="locale|keyboardHidden"
             android:launchMode="singleTask"
             android:screenOrientation="behind">
@@ -106,7 +90,7 @@
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name=".view.activity.MainActivity"
             android:configChanges="locale|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout"
             android:launchMode="singleTask"
             android:alwaysRetainTaskState="true" />
@@ -120,7 +104,7 @@
             android:configChanges="locale|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout"
             android:launchMode="singleTask" />
         <activity
-            android:name="com.duyin.bookshelf.todo.view.activity.BookDetailActivity"
+            android:name="com.duyin.bookshelf.view.activity.BookDetailActivity"
             android:configChanges="locale|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout"
             android:launchMode="singleTask"
             android:screenOrientation="behind"
@@ -143,10 +127,6 @@
             android:launchMode="singleTask" />
         <activity
             android:name="com.duyin.bookshelf.todo.view.activity.ThemeSettingActivity"
-            android:configChanges="locale|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout"
-            android:launchMode="singleTask" />
-        <activity
-            android:name="com.duyin.bookshelf.todo.view.activity.AboutActivity"
             android:configChanges="locale|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout"
             android:launchMode="singleTask" />
         <activity
@@ -197,7 +177,7 @@
             android:theme="@style/Activity.Permission" />
 
         <activity
-            android:name=".HomeActivity"
+            android:name="com.duyin.bookshelf.view.activity.HomeActivity"
             android:configChanges="locale|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout"
             android:launchMode="singleTask"
             android:alwaysRetainTaskState="true" />
@@ -219,12 +199,6 @@
             </intent-filter>
 
         </activity>
-
-        <activity
-            android:name=".settings.MySettingActivity"
-            android:configChanges="keyboardHidden|orientation"
-            android:screenOrientation="portrait"
-            android:launchMode="singleTop" />
 
         <service android:name=".todo.service.DownloadService" />
         <service android:name=".todo.service.ReadAloudService" />

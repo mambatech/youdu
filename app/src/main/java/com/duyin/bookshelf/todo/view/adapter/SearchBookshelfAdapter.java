@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.duyin.bookshelf.R;
-import com.duyin.bookshelf.todo.bean.BookInfoBean;
+import com.duyin.bookshelf.bean.BookInfoBean;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -9,7 +9,7 @@ import android.text.style.ClickableSpan
 import android.view.View
 import android.widget.TextView
 import com.duyin.bookshelf.R
-import com.duyin.bookshelf.todo.help.PrivacyAndUserLienceHelper
+import com.duyin.bookshelf.helper.PrivacyAndUserLienceHelper
 
 /**
 created by edison 2020-02-23

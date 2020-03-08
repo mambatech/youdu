@@ -1,6 +1,6 @@
 package com.duyin.bookshelf.todo.model;
 
-import com.duyin.bookshelf.todo.bean.BookSourceBean;
+import com.duyin.bookshelf.bean.BookSourceBean;
 
 public class SavedSource {
     public static SavedSource Instance = new SavedSource();

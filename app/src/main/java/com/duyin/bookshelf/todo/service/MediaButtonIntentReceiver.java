@@ -8,8 +8,8 @@ import android.view.KeyEvent;
 import com.hwangjr.rxbus.RxBus;
 import com.edison.mvplib.AppActivityManager;
 import com.duyin.bookshelf.todo.constant.RxBusTag;
-import com.duyin.bookshelf.todo.presenter.ReadBookPresenter;
-import com.duyin.bookshelf.bookshelf.ReadBookActivity;
+import com.duyin.bookshelf.presenter.ReadBookPresenter;
+import com.duyin.bookshelf.view.activity.ReadBookActivity;
 
 /**
  * Created by GKF on 2018/1/6.

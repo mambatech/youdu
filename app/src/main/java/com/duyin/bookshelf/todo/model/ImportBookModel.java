@@ -4,8 +4,8 @@ package com.duyin.bookshelf.todo.model;
 import com.duyin.bookshelf.DbHelper;
 import com.duyin.bookshelf.R;
 import com.duyin.bookshelf.base.net.BaseModelImpl;
-import com.duyin.bookshelf.todo.bean.BookInfoBean;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookInfoBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
 import com.duyin.bookshelf.todo.bean.LocBookShelfBean;
 import com.duyin.bookshelf.todo.help.BookshelfHelp;
 

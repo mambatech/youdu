@@ -3,7 +3,7 @@ package com.duyin.bookshelf.todo.model;
 import com.duyin.bookshelf.DbHelper;
 import com.duyin.bookshelf.MApplication;
 import com.duyin.bookshelf.todo.bean.TxtChapterRuleBean;
-import com.duyin.bookshelf.todo.dao.TxtChapterRuleBeanDao;
+import com.duyin.bookshelf.dao.TxtChapterRuleBeanDao;
 import com.duyin.bookshelf.utils.GsonUtils;
 import com.duyin.bookshelf.utils.IOUtils;
 

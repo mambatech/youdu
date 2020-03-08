@@ -17,8 +17,8 @@ import android.text.TextUtils;
 import android.widget.Toast;
 
 import com.duyin.bookshelf.R;
-import com.duyin.bookshelf.todo.bean.BookChapterBean;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookChapterBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
 import com.duyin.bookshelf.todo.constant.AppConstant;
 import com.duyin.bookshelf.todo.help.BookshelfHelp;
 import com.duyin.bookshelf.todo.help.ChapterContentHelp;

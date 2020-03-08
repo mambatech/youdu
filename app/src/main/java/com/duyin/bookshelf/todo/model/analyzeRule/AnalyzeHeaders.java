@@ -5,7 +5,7 @@ import android.content.SharedPreferences;
 import com.duyin.bookshelf.DbHelper;
 import com.duyin.bookshelf.MApplication;
 import com.duyin.bookshelf.R;
-import com.duyin.bookshelf.todo.bean.BookSourceBean;
+import com.duyin.bookshelf.bean.BookSourceBean;
 import com.duyin.bookshelf.todo.bean.CookieBean;
 
 import java.util.HashMap;

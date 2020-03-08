@@ -7,7 +7,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.duyin.bookshelf.MApplication;
-import com.duyin.bookshelf.MainActivity;
+import com.duyin.bookshelf.view.activity.MainActivity;
 import com.duyin.bookshelf.utils.StringUtils;
 
 public class ReceivingSharedActivity extends AppCompatActivity {

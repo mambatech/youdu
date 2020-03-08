@@ -3,9 +3,9 @@ package com.duyin.bookshelf.todo.widget.page;
 import android.annotation.SuppressLint;
 
 import com.duyin.bookshelf.base.observer.MyObserver;
-import com.duyin.bookshelf.todo.bean.BookChapterBean;
+import com.duyin.bookshelf.bean.BookChapterBean;
 import com.duyin.bookshelf.todo.bean.BookContentBean;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
 import com.duyin.bookshelf.todo.help.BookshelfHelp;
 import com.duyin.bookshelf.todo.model.WebBookModel;
 import com.duyin.bookshelf.todo.model.content.VipThrowable;

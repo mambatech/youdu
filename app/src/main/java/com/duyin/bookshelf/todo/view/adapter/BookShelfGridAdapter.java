@@ -14,8 +14,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.duyin.bookshelf.DbHelper;
 import com.duyin.bookshelf.R;
-import com.duyin.bookshelf.todo.bean.BookInfoBean;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookInfoBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
 import com.duyin.bookshelf.todo.help.BookshelfHelp;
 import com.duyin.bookshelf.todo.help.ItemTouchCallback;
 import com.duyin.bookshelf.utils.theme.ThemeStore;

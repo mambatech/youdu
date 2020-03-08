@@ -9,8 +9,8 @@ import com.hwangjr.rxbus.RxBus;
 import com.edison.mvplib.BasePresenterImpl;
 import com.edison.mvplib.impl.IView;
 import com.duyin.bookshelf.DbHelper;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
-import com.duyin.bookshelf.todo.bean.SearchBookBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.SearchBookBean;
 import com.duyin.bookshelf.todo.model.WebBookModel;
 import com.duyin.bookshelf.todo.presenter.contract.ChoiceBookContract;
 

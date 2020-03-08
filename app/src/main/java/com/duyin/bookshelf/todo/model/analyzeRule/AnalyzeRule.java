@@ -6,7 +6,7 @@ import androidx.annotation.Keep;
 
 import com.google.gson.Gson;
 import com.duyin.bookshelf.base.net.BaseModelImpl;
-import com.duyin.bookshelf.todo.bean.BaseBookBean;
+import com.duyin.bookshelf.bean.BaseBookBean;
 import com.duyin.bookshelf.utils.NetworkUtils;
 import com.duyin.bookshelf.utils.StringUtils;
 

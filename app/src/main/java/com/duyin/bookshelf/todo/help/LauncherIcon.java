@@ -13,7 +13,7 @@ import com.duyin.bookshelf.R;
 
 public class LauncherIcon {
     private static PackageManager packageManager = MApplication.getInstance().getPackageManager();
-    private static ComponentName componentNameMain = new ComponentName(MApplication.getInstance(), "com.duyin.bookshelf.WelcomeActivity");
+    private static ComponentName componentNameMain = new ComponentName(MApplication.getInstance(), "com.duyin.bookshelf.view.activity.WelcomeActivity");
     private static ComponentName componentNameBookMain = new ComponentName(MApplication.getInstance(), "com.duyin.bookshelf.todo.view.activity.WelcomeBookActivity");
 
     public static void ChangeIcon(String icon) {

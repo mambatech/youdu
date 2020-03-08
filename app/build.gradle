@@ -165,7 +165,7 @@ dependencies {
 
 greendao {
     schemaVersion 2
-    daoPackage 'com.duyin.bookshelf.todo.dao'
+    daoPackage 'com.duyin.bookshelf.dao'
     targetGenDir 'src/main/java'
 }
 

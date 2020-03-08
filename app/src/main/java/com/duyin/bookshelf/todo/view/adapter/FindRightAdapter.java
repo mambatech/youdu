@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.duyin.bookshelf.R;
-import com.duyin.bookshelf.todo.bean.FindKindBean;
+import com.duyin.bookshelf.bean.FindKindBean;
 import com.duyin.bookshelf.todo.bean.FindKindGroupBean;
 import com.duyin.bookshelf.todo.view.activity.ChoiceBookActivity;
 import com.duyin.bookshelf.todo.widget.recycler.expandable.OnRecyclerViewListener;

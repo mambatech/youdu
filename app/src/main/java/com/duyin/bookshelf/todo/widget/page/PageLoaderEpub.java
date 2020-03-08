@@ -6,8 +6,8 @@ import android.graphics.Canvas;
 import android.text.TextUtils;
 
 import com.duyin.bookshelf.base.observer.MyObserver;
-import com.duyin.bookshelf.todo.bean.BookChapterBean;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookChapterBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
 import com.duyin.bookshelf.todo.help.BookshelfHelp;
 import com.duyin.bookshelf.utils.RxUtils;
 import com.duyin.bookshelf.utils.StringUtils;

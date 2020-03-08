@@ -20,7 +20,7 @@ import androidx.annotation.Nullable;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.duyin.bookshelf.R;
 import com.duyin.bookshelf.todo.help.BlurTransformation;
-import com.duyin.bookshelf.todo.help.ImageLoader;
+import com.duyin.bookshelf.helper.ImageLoader;
 import com.duyin.bookshelf.utils.ColorUtil;
 import com.duyin.bookshelf.utils.TimeUtils;
 import com.duyin.bookshelf.utils.theme.MaterialValueHelper;

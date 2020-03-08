@@ -11,7 +11,7 @@ import com.duyin.bookshelf.DbHelper;
 import com.duyin.bookshelf.R;
 import com.duyin.bookshelf.base.MBaseFragment;
 import com.duyin.bookshelf.base.observer.MySingleObserver;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
 import com.duyin.bookshelf.todo.bean.BookmarkBean;
 import com.duyin.bookshelf.todo.bean.OpenChapterBean;
 import com.duyin.bookshelf.todo.constant.RxBusTag;

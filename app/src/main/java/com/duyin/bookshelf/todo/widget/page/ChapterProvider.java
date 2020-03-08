@@ -5,7 +5,7 @@ import android.text.StaticLayout;
 
 import androidx.annotation.NonNull;
 
-import com.duyin.bookshelf.todo.bean.BookChapterBean;
+import com.duyin.bookshelf.bean.BookChapterBean;
 import com.duyin.bookshelf.todo.help.ChapterContentHelp;
 import com.duyin.bookshelf.utils.NetworkUtils;
 

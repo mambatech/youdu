@@ -2,8 +2,8 @@ package com.duyin.bookshelf.todo.widget.page;
 
 import android.text.TextUtils;
 
-import com.duyin.bookshelf.todo.bean.BookChapterBean;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.BookChapterBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
 import com.duyin.bookshelf.todo.help.BookshelfHelp;
 import com.duyin.bookshelf.todo.model.TxtChapterRuleManager;
 import com.duyin.bookshelf.utils.EncodingDetect;

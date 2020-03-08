@@ -1,7 +1,7 @@
 package com.duyin.bookshelf.todo.web;
 
 import com.google.gson.Gson;
-import com.duyin.bookshelf.todo.bean.BookSourceBean;
+import com.duyin.bookshelf.bean.BookSourceBean;
 
 import java.util.List;
 

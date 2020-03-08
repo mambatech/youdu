@@ -4,9 +4,9 @@ import android.content.Intent;
 
 import com.edison.mvplib.impl.IPresenter;
 import com.edison.mvplib.impl.IView;
-import com.duyin.bookshelf.todo.bean.BookChapterBean;
-import com.duyin.bookshelf.todo.bean.BookShelfBean;
-import com.duyin.bookshelf.todo.bean.SearchBookBean;
+import com.duyin.bookshelf.bean.BookChapterBean;
+import com.duyin.bookshelf.bean.BookShelfBean;
+import com.duyin.bookshelf.bean.SearchBookBean;
 
 import java.util.List;
 

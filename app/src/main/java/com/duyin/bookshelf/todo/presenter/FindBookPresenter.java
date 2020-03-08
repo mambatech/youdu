@@ -10,14 +10,13 @@ import com.duyin.bookshelf.utils.ReadAssets;
 import com.edison.mvplib.BasePresenterImpl;
 import com.edison.mvplib.impl.IView;
 import com.duyin.bookshelf.MApplication;
-import com.duyin.bookshelf.todo.bean.BookSourceBean;
-import com.duyin.bookshelf.todo.bean.FindKindBean;
+import com.duyin.bookshelf.bean.BookSourceBean;
+import com.duyin.bookshelf.bean.FindKindBean;
 import com.duyin.bookshelf.todo.bean.FindKindGroupBean;
 import com.duyin.bookshelf.todo.model.BookSourceManager;
 import com.duyin.bookshelf.todo.model.analyzeRule.AnalyzeRule;
 import com.duyin.bookshelf.todo.presenter.contract.FindBookContract;
 import com.duyin.bookshelf.utils.ACache;
-import com.duyin.bookshelf.utils.RxUtils;
 import com.duyin.bookshelf.todo.widget.recycler.expandable.bean.RecyclerViewData;
 
 import java.util.ArrayList;

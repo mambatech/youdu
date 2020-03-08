@@ -2,7 +2,7 @@ package com.duyin.bookshelf.todo.presenter.contract;
 
 import com.edison.mvplib.impl.IPresenter;
 import com.edison.mvplib.impl.IView;
-import com.duyin.bookshelf.todo.bean.BookSourceBean;
+import com.duyin.bookshelf.bean.BookSourceBean;
 
 import io.reactivex.Observable;
 

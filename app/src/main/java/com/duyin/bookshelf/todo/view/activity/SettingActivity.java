@@ -14,7 +14,7 @@ import com.duyin.bookshelf.R;
 import com.duyin.bookshelf.base.MBaseActivity;
 import com.duyin.bookshelf.todo.help.storage.BackupRestoreUi;
 import com.duyin.bookshelf.utils.theme.ThemeStore;
-import com.duyin.bookshelf.todo.view.fragment.SettingsFragment;
+import com.duyin.bookshelf.view.fragment.SettingsFragment;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
