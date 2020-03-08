@@ -38,7 +38,6 @@ import androidx.appcompat.widget.Toolbar;
 
 import com.duyin.bookshelf.todo.view.activity.BookInfoEditActivity;
 import com.duyin.bookshelf.todo.view.activity.ChapterListActivity;
-import com.duyin.bookshelf.todo.view.activity.DonateActivity;
 import com.duyin.bookshelf.todo.view.activity.ReplaceRuleActivity;
 import com.duyin.bookshelf.todo.view.activity.SourceEditActivity;
 import com.duyin.bookshelf.todo.view.activity.SourceLoginActivity;
@@ -930,7 +929,6 @@ public class ReadBookActivity extends MBaseActivity<ReadBookContract.Presenter> 
                     @Override
                     public void vipPop() {
                         moDialogHUD.showTwoButton(ReadBookActivity.this.getString(R.string.donate_s), "领取红包", (v) -> {
-                                    DonateActivity.getZfbHb(ReadBookActivity.this);
                                     mHandler.postDelayed(() -> {
                                         ReadBookActivity.this.refreshDurChapter();
                                         moDialogHUD.dismiss();

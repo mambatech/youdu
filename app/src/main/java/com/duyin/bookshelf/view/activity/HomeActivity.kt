@@ -8,8 +8,8 @@ import com.duyin.bookshelf.view.fragment.HomeExploreFragment
 import com.duyin.bookshelf.bean.BookTabEntity
 import com.duyin.bookshelf.todo.presenter.MainPresenter
 import com.duyin.bookshelf.todo.presenter.contract.MainContract
-import com.duyin.bookshelf.todo.view.fragment.*
 import com.duyin.bookshelf.utils.bar.ImmersionBar
+import com.duyin.bookshelf.view.fragment.MySettingFragment
 import com.flyco.tablayout.CommonTabLayout
 import com.flyco.tablayout.listener.CustomTabEntity
 import kotlin.collections.ArrayList

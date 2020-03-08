@@ -1,4 +1,4 @@
-package com.duyin.bookshelf.todo.view.fragment;
+package com.duyin.bookshelf.view.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
