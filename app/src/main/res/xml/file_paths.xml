@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path
+        name="files_cache"
+        path="Android/data/com.duyin.bookshelf/cache" />
+    <external-path
+        name="external_storage_root"
+        path="." />
+
+    <external-files-path name="external_files_path" path="." />
+</paths>

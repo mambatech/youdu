@@ -1,0 +1,16 @@
+*.iml
+/.gradle
+/.idea
+.DS_Store
+/local.properties
+/build
+/captures
+/app/release/
+google-services.json
+
+src/androidTest/
+/back
+/tool/书源整理工具/bin/*.exe
+/tool/书源整理工具/*.otares
+/app/src/main/java/com/duyin/bookshelf/todo/dao/DaoMaster.java
+/app/src/main/java/com/duyin/bookshelf/todo/dao/DaoSession.java
