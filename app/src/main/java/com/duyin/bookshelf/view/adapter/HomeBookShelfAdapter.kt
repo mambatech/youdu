@@ -1,4 +1,4 @@
-package com.duyin.bookshelf.todo.view.adapter
+package com.duyin.bookshelf.view.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.duyin.bookshelf.R
 import com.duyin.bookshelf.bean.BookShelfBean
 import com.duyin.bookshelf.helper.ImageLoader
+import com.duyin.bookshelf.view.holder.BaseVH
 import jp.wasabeef.picasso.transformations.RoundedCornersTransformation
 
 /**
@@ -34,18 +35,18 @@ class HomeBookShelfAdapter: RecyclerView.Adapter<BaseVH>() {
     fun updateBookShelf(datas: List<BookShelfBean>) {
         bookShelfList.clear()
         for (book in datas){
-            val wrapper = ItemWrapper(TYPE_BOOK,book)
+            val wrapper = ItemWrapper(TYPE_BOOK, book)
             bookShelfList.add(wrapper)
         }
 
-        val wrapperAdd = ItemWrapper(TYPE_ADD_BOOK,null)
+        val wrapperAdd = ItemWrapper(TYPE_ADD_BOOK, null)
         bookShelfList.add(wrapperAdd)
         notifyDataSetChanged()
     }
 
     fun addBookShelf(bookShelf: BookShelfBean){
         if (bookShelfList.isNotEmpty()){
-            bookShelfList.add(0,ItemWrapper(TYPE_BOOK,bookShelf))
+            bookShelfList.add(0, ItemWrapper(TYPE_BOOK, bookShelf))
             notifyDataSetChanged()
         }
     }

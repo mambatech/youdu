@@ -1,4 +1,4 @@
-package com.duyin.bookshelf.todo.view.adapter
+package com.duyin.bookshelf.view.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -15,6 +15,7 @@ import com.duyin.bookshelf.bean.HomeExploreItemBean
 import com.duyin.bookshelf.bean.HomeExploreType
 import com.duyin.bookshelf.helper.ImageLoader
 import com.duyin.bookshelf.utils.ScreenUtils
+import com.duyin.bookshelf.view.holder.BaseVH
 import jp.wasabeef.picasso.transformations.RoundedCornersTransformation
 
 /**

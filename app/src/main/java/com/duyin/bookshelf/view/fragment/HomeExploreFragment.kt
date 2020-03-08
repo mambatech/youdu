@@ -18,7 +18,7 @@ import com.duyin.bookshelf.presenter.ReadBookPresenter
 import com.duyin.bookshelf.presenter.contract.HomeExploreContract
 import com.duyin.bookshelf.todo.view.activity.ChoiceBookActivity
 import com.duyin.bookshelf.todo.view.activity.SearchBookActivity
-import com.duyin.bookshelf.todo.view.adapter.HomeExploreAdapter
+import com.duyin.bookshelf.view.adapter.HomeExploreAdapter
 import com.edison.mvplib.BitIntentDataManager
 
 /**
