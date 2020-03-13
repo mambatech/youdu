@@ -164,6 +164,7 @@
 public static java.lang.String TABLENAME;
 }
 -keep class **$Properties{*;}
+-keep class com.duyin.bookshelf.bean.*{ *; }
 -dontwarn org.greenrobot.greendao.database.**
 -dontwarn rx.**
 
