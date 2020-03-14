@@ -218,6 +218,7 @@ public static java.lang.String TABLENAME;
 -keep class javax.script.** { *; }
 -keep class com.sun.script.javascript.** { *; }
 -keep class org.mozilla.javascript.** { *; }
+-keep class org.mozilla.** { *; }
 -dontwarn org.mozilla.javascript.**
 -dontwarn sun.**
 
