@@ -13,6 +13,7 @@ import com.duyin.bookshelf.presenter.HomePresenter
 import com.duyin.bookshelf.presenter.ReadBookPresenter
 import com.duyin.bookshelf.presenter.contract.HomeContract
 import com.duyin.bookshelf.todo.view.activity.SearchBookActivity
+import com.duyin.bookshelf.utils.GsonUtils
 import com.duyin.bookshelf.view.adapter.HomeBookShelfAdapter
 import com.edison.mvplib.BitIntentDataManager
 
@@ -43,6 +44,7 @@ class HomeBookShelfFragment : MBaseFragment<HomePresenter>(), HomeContract.View 
     }
 
     override fun initBookShelfGrid(datas: List<BookShelfBean>) {
+        val str = GsonUtils.toJsonWithSerializeNulls(datas)
         adapter = HomeBookShelfAdapter()
         rvBookShelf?.layoutManager = GridLayoutManager(context,3) as RecyclerView.LayoutManager
         rvBookShelf?.adapter = adapter

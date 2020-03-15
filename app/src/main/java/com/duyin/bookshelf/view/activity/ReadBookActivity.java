@@ -167,6 +167,7 @@ public class ReadBookActivity extends MBaseActivity<ReadBookContract.Presenter> 
     private int nextPageTime;
     private String noteUrl;
     private Boolean isAdd = false; //判断是否已经添加进书架
+    private Boolean hasCheckPop = false; //退出弹窗是否已经展示过
     private ReadAloudService.Status aloudStatus = ReadAloudService.Status.STOP;
     private int screenTimeOut;
     private int upHpbInterval = 100;
@@ -1509,8 +1510,9 @@ public class ReadBookActivity extends MBaseActivity<ReadBookContract.Presenter> 
     /**
      * 检查是否加入书架
      */
+
     public boolean checkAddShelf() {
-        if (isAdd || mPresenter.getBookShelf() == null
+        if (hasCheckPop || isAdd || mPresenter.getBookShelf() == null
                 || TextUtils.isEmpty(mPresenter.getBookShelf().getBookInfoBean().getName())) {
             return true;
         } else if (mPresenter.getChapterList().isEmpty()) {
@@ -1524,6 +1526,7 @@ public class ReadBookActivity extends MBaseActivity<ReadBookContract.Presenter> 
                             public void clickExit() {
                                 checkAddShelfPop.dismiss();
                                 finish();
+
                             }
 
                             @Override
@@ -1534,6 +1537,7 @@ public class ReadBookActivity extends MBaseActivity<ReadBookContract.Presenter> 
                         });
             }
             if (!checkAddShelfPop.isShowing()) {
+                hasCheckPop = true;
                 checkAddShelfPop.showAtLocation(flContent, Gravity.CENTER, 0, 0);
             }
             return false;
@@ -1928,6 +1932,8 @@ public class ReadBookActivity extends MBaseActivity<ReadBookContract.Presenter> 
         if (!checkAddShelf()) {
             return;
         }
+
+        hasCheckPop = false;
         if (!AppActivityManager.getInstance().isExist(HomeActivity.class)) {
             Intent intent = new Intent(this, HomeActivity.class);
             startActivity(intent);
