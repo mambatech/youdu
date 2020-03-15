@@ -44,7 +44,7 @@ class HomeBookShelfFragment : MBaseFragment<HomePresenter>(), HomeContract.View 
     }
 
     override fun initBookShelfGrid(datas: List<BookShelfBean>) {
-        val str = GsonUtils.toJsonWithSerializeNulls(datas)
+//        val str = GsonUtils.toJsonWithSerializeNulls(datas)
         adapter = HomeBookShelfAdapter()
         rvBookShelf?.layoutManager = GridLayoutManager(context,3) as RecyclerView.LayoutManager
         rvBookShelf?.adapter = adapter
