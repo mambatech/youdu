@@ -1487,7 +1487,7 @@ public abstract class PageLoader {
                 tip = mContext.getString(R.string.loading);
                 break;
             case ERROR:
-                tip = mContext.getString(R.string.load_error_msg, curChapter().txtChapter.getMsg());
+                tip = mContext.getString(R.string.str_load_err);
                 break;
             case EMPTY:
                 tip = mContext.getString(R.string.content_empty);

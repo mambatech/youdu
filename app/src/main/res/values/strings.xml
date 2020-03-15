@@ -491,6 +491,7 @@
     <string name="book_shelf">书架</string>
     <string name="explore">探索</string>
     <string name="home_title">有读</string>
+    <string name="str_load_err">哎呀，开小差了，10秒后再打开吧</string>
 
 
 </resources>
