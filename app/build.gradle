@@ -23,7 +23,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.duyin.readbook"
+        applicationId "com.mamba.youdu"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 100
