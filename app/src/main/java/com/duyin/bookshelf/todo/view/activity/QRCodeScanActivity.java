@@ -88,19 +88,6 @@ public class QRCodeScanActivity extends MBaseActivity implements QRCodeView.Dele
     @Override
     protected void onStart() {
         super.onStart();
-        startCamera();
-    }
-
-    private void startCamera() {
-        new PermissionsCompat.Builder(this)
-                .addPermissions(Permissions.CAMERA)
-                .rationale(R.string.qr_per)
-                .onGranted((requestCode) -> {
-                    zxingview.setVisibility(View.VISIBLE);
-                    zxingview.startSpotAndShowRect(); // 显示扫描框，并开始识别
-                    return Unit.INSTANCE;
-                })
-                .request();
     }
 
     @Override
