@@ -5,18 +5,11 @@ object Permissions {
     const val READ_CALENDAR = "android.permission.READ_CALENDAR"
     const val WRITE_CALENDAR = "android.permission.WRITE_CALENDAR"
 
-    const val CAMERA = "android.permission.CAMERA"
-
-    const val READ_CONTACTS = "android.permission.READ_CONTACTS"
-    const val WRITE_CONTACTS = "android.permission.WRITE_CONTACTS"
-    const val GET_ACCOUNTS = "android.permission.GET_ACCOUNTS"
-
     const val ACCESS_FINE_LOCATION = "android.permission.ACCESS_FINE_LOCATION"
     const val ACCESS_COARSE_LOCATION = "android.permission.ACCESS_COARSE_LOCATION"
 
     const val RECORD_AUDIO = "android.permission.RECORD_AUDIO"
 
-    const val READ_PHONE_STATE = "android.permission.READ_PHONE_STATE"
     const val CALL_PHONE = "android.permission.CALL_PHONE"
     const val READ_CALL_LOG = "android.permission.READ_CALL_LOG"
     const val WRITE_CALL_LOG = "android.permission.WRITE_CALL_LOG"
@@ -38,16 +31,12 @@ object Permissions {
     object Group {
         val CALENDAR = arrayOf(READ_CALENDAR, WRITE_CALENDAR)
 
-        val CAMERA = arrayOf(Permissions.CAMERA)
-
-        val CONTACTS = arrayOf(READ_CONTACTS, WRITE_CONTACTS, GET_ACCOUNTS)
 
         val LOCATION = arrayOf(ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION)
 
         val MICROPHONE = arrayOf(RECORD_AUDIO)
 
         val PHONE = arrayOf(
-                READ_PHONE_STATE,
                 CALL_PHONE,
                 READ_CALL_LOG,
                 WRITE_CALL_LOG,
