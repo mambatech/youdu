@@ -84,7 +84,6 @@ dependencies {
     testImplementation 'junit:junit:4.13-beta-3'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':basemvplib')
-    compile(name: 'open_ad_sdk', ext: 'aar')
 
     api 'androidx.core:core-ktx:1.2.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
