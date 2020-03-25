@@ -26,8 +26,8 @@ android {
         applicationId "com.mamba.youdu"
         minSdkVersion 19
         targetSdkVersion 28
-        versionCode 100
-        versionName "1.0.0"
+        versionCode 102
+        versionName "1.0.2"
         project.ext.set("archivesBaseName", name + "_" + version)
         multiDexEnabled true
 
